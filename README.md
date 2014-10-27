@@ -1,13 +1,21 @@
 # Introduction to Java Enterprise Edition
 
-This repository holds basic help materials for "Introduction to Java Enterprise" (pol. "Technologie Java Enterprise") lecture at the University of Gdańsk in 2014.
+This repository holds basic and minimalistic application skeleton for JEE6 (Web Profile) application run with [Maven Jetty Plugin](http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html).
 
-## Layout
+## Requirements ##
 
-Each branch in this repository represents different subject and starting/ending point for each lecture.
+This project has very small system requirements:
 
-- `master` - minimalistic application skeleton for JEE6 (Web Profile) application run with [Maven Jetty Plugin](http://www.eclipse.org/jetty/documentation/current/jetty-maven-plugin.html).
-- `01-servlets` - basic servlets functionality: displaying text, handling forms, interacting with session and servlet context
+* Java SE SDK 1.7 or higher
+* Apache Maven 3.0 or higher
+
+## How to run? ##
+
+After cloning this repository navigate to its directory in command line and type:
+
+`mvn jetty:run`
+
+Then enter the URL [http://localhost:8080/introductiontojee](http://localhost:8080/introductiontojee) in web browser.
 
 ## License
 
